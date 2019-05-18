@@ -4,6 +4,16 @@
     <title>
         In-Place Calculator
     </title>
+    %{--
+    <script>
+        function attachValidator() {
+            document.getElementById('en').addEventListener('change', validate);
+            document.getElementById('exam').addEventListener('change', validate);
+        }
+
+        document.addEventListener('DOMContentLoaded', attachValidator);
+    </script>
+    --}%
 </head>
 
 <body>
